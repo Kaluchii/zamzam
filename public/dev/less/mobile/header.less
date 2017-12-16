@@ -1,0 +1,84 @@
+@media all and (max-width: 1260px){
+  .header{
+    &__logo{
+      width: 100px;
+      height: 80px;
+    }
+
+    &__phone-wrapper{
+      padding: 0 25px;
+    }
+
+    &__call-wrapper{
+      padding: 0 25px;
+    }
+  }
+
+  .nav{
+    &__item{
+      & + &{
+        margin-left: 25px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1100px){
+  .header{
+    &__call-wrapper{
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width: 850px){
+  .header{
+    &__logo{
+      width: 76px;
+      height: 70px;
+      padding: 10px 13px;
+      box-sizing: border-box;
+      border-right: none;
+    }
+
+    &__logo-img{
+      background-size: contain;
+    }
+
+    &__phone-wrapper{
+      justify-content: center;
+      flex-grow: 1;
+      padding: 0;
+    }
+
+    &__menu-open{
+      display: block;
+    }
+  }
+
+  .nav{
+    position: absolute;
+    left: -195px;
+    top: 100%;
+    z-index: -1;
+    border-right: none;
+    transition: .5s;
+
+    &.is-open{
+      left: 0;
+    }
+
+    &__list{
+      flex-direction: column;
+      padding: 50px 25px 30px;
+      background-color: #ffffff;
+    }
+
+    &__item{
+      & + &{
+        margin-left: 0;
+        margin-top: 45px;
+      }
+    }
+  }
+}

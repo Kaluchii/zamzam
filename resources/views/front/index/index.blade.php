@@ -1,19 +1,21 @@
 @extends('front.layout')
 @section('content')
-{{--    @include('front.index.meta')
-    <section class="title">
+    @include('front.index.meta')
+    <section class="title" id="title">
         <div class="title__container">
-            <div class="title__facts">
-                <div class="title__fact1">Дом готов</div>
-                <div class="title__fact2">Ипотека</div>
+            <div class="title__content-wrapper">
+                <div class="title__facts">
+                    <div class="title__fact title__fact--1">Дом готов</div>
+                    <div class="title__fact title__fact--2">Ипотека</div>
+                </div>
+                <h1 class="title__title block-title">Коммерческие помещения в&nbsp;ЖК&nbsp;«Zam-Zam» 280&nbsp;000&nbsp;т/м²</h1>
+                <h2 class="title__sub-title">Бизнес в респектабельном районе на левом берегу</h2>
+                <a href="#" class="title__call-btn button button--orange">ЗАПИСАТЬСЯ НА ПРОСМОТР</a>
             </div>
-            <h1 class="title__title block-title">Коммерческие помещения в ЖК «Zam-Zam» 280 000 т/м²</h1>
-            <h2 class="title__sub-title">Бизнес в респектабельном районе на левом берегу</h2>
-            <a href="#" class="title__call-btn button button--orange">ЗАПИСАТЬСЯ НА ПРОСМОТР</a>
         </div>
     </section>
 
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="advantages__container">
             <h2 class="advantages__title block-title">Преимущества наших помещений</h2>
             <div class="advantages__col">
@@ -92,7 +94,7 @@
         </div>
     </section>
 
-    <section class="plans">
+    <section class="plans" id="plans">
         <div class="plans__wrapper">
             <h2 class="plans__title block-title">14 продуманных помещений</h2>
             <p class="plans__sub-title">Для различных видов предприятий</p>
@@ -174,7 +176,7 @@
         </div>
     </section>
 
-    <section class="stock">
+    <section class="stock" id="stock">
         <div class="stock__wrapper">
             <p class="stock__rec">Акция!</p>
             <h2 class="stock__title block-title">Двухэтажное помещение под тренажерный зал</h2>
@@ -188,11 +190,11 @@
                     <p class="stock__info-dec">220 000 т/м²</p>
                 </div>
             </div>
-            <a href="#" class="stock__btn button button--green"></a>
+            <a href="#" class="stock__btn button button--green">СМОТРЕТЬ ПЛАНИРОВКУ</a>
         </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="contacts__wrapper">
             <h2 class="contacts__title block-title">Приходите в гости</h2>
             <div class="contacts__contact-block contact-block">
@@ -257,5 +259,6 @@
             </footer>
         </div>
     </section>
-    --}}
+
+    <div class="shadow js_menu_close"></div>
 @endsection

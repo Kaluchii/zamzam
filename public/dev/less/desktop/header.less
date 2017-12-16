@@ -2,7 +2,16 @@
   position: fixed;
   width: 100%;
   background-color: #ffffff;
-  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.14);
+  z-index: 10;
+
+  &__shadow{
+    position: absolute;
+    left: -20%;
+    bottom: 0;
+    width: 140%;
+    height: 10px;
+    box-shadow: 0 4px 3px -1px rgba(0, 0, 0, 0.14);
+  }
 
   &__container{
     max-width: 1570px;
@@ -14,7 +23,7 @@
 
   &__logo{
     display: block;
-    width: 126px;
+    width: 127px;
     height: 100px;
     border-right: 1px solid #e9e9e9;
   }
@@ -31,13 +40,15 @@
   &__phone-wrapper{
     display: flex;
     align-items: center;
-    padding: 0 38px;
+    padding: 0 40px;
     font-size: 18px;
     font-weight: 500;
+    letter-spacing: .05em;
   }
 
   &__phone{
     color: #000000;
+    white-space: nowrap;
   }
 
   &__call-wrapper{
@@ -63,10 +74,13 @@
 
   &__list{
     display: flex;
-    padding-bottom: 5px;
   }
 
   &__item{
+    font-size: 14px;
+    letter-spacing: .15em;
+    font-family: 'HelveticaNeueCyr-Roman', Helvetica, Arial, sans-serif;
+
     & + &{
       margin-left: 40px;
     }

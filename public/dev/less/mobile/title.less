@@ -1,0 +1,95 @@
+@media all and (max-width: 1440px){
+  .title{
+    &__container{
+      background: url("/img/jk.png") no-repeat ~"calc(100% + 200px)" 100%, url("/img/towers.png") no-repeat left bottom;
+    }
+  }
+}
+
+@media all and (max-width: 1240px){
+  .title{
+    &__container{
+      background: url("/img/jk.png") no-repeat ~"calc(100% + 400px)" 100%, url("/img/towers.png") no-repeat left bottom;
+    }
+  }
+}
+
+@media all and (max-width: 1024px){
+  .title{
+    &__container{
+      background: url("/img/title_shadow.png"), url("/img/jk.png") no-repeat ~"calc(100% + 400px)" 100%, url("/img/towers.png") no-repeat left bottom/ auto 150px;
+    }
+
+    &__title{
+      max-width: 485px;
+    }
+
+    &__sub-title{
+      color: #000000;
+    }
+  }
+}
+
+@media all and (max-width: 900px){
+  .title{
+    &__container{
+      padding: 180px 35px 105px;
+    }
+  }
+}
+
+@media all and (max-width: 620px){
+  .title{
+    &__container{
+      padding: 115px 25px 90px;
+      background: url("/img/title_shadow.png"), url("/img/jk.png") no-repeat ~"calc(100% + 400px)" 100%/ auto 600px;
+    }
+
+    &__title{
+      margin-top: 25px;
+      max-width: 390px;
+    }
+
+    &__sub-title{
+      margin-top: 10px;
+      max-width: 330px;
+      font-size: 14px;
+    }
+
+    &__fact{
+      padding: 11px 20px 5px 32px;
+      font-size: 14px;
+
+      &::after{
+        top: 8px;
+        left: 8px;
+        width: 17px;
+        height: 16px;
+      }
+
+      &--2{
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 430px){
+  .title{
+    &__container{
+      background: url("/img/title_shadow.png"), url("/img/jk.png") no-repeat ~"calc(100% + 410px)" 100%/ auto 500px;
+    }
+
+    &__title{
+      max-width: 320px;
+    }
+
+    &__sub-title{
+      max-width: 250px;
+    }
+
+    &__call-btn{
+      margin-top: 30px;
+    }
+  }
+}
