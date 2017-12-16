@@ -2,7 +2,7 @@
  * Created by konstantin on 16.12.17.
  */
 $(document).ready(function () {
-    var sections = $('.nav__link'),
+    var sections = $('.js_nav_link'),
         $window = $(window),
         offset = $window.height() / 2.5;
 
@@ -46,14 +46,11 @@ $(document).ready(function () {
 
     $('.js_goto_anchor').bind("click", function(e){
         $('html, body').stop().animate({
-            scrollTop: $($(this).attr('href')).offset().top-120
+            scrollTop: $($(this).attr('href')).offset().top-70
         }, 1000);
         e.preventDefault();
         if ($window.width() <= 850){
-            $('.js_fixed_menu').removeClass('is-open');
-            $('.js_menu').removeClass('is-open');
-            $('.js_nav_wrap').removeClass('is-open').slideUp();
-            $('.js_fixed_nav_wrap').removeClass('is-open').slideUp();
+            menuClose();
         }
     });
 });

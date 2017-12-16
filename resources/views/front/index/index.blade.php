@@ -10,7 +10,7 @@
                 </div>
                 <h1 class="title__title block-title">Коммерческие помещения в&nbsp;ЖК&nbsp;«Zam-Zam» 280&nbsp;000&nbsp;т/м²</h1>
                 <h2 class="title__sub-title">Бизнес в респектабельном районе на левом берегу</h2>
-                <a href="#" class="title__call-btn button button--orange">ЗАПИСАТЬСЯ НА ПРОСМОТР</a>
+                <a href="#feedback" class="title__call-btn button button--orange js_goto_anchor">ЗАПИСАТЬСЯ НА ПРОСМОТР</a>
             </div>
         </div>
     </section>
@@ -18,54 +18,45 @@
     <section class="advantages" id="advantages">
         <div class="advantages__container">
             <h2 class="advantages__title block-title">Преимущества наших помещений</h2>
-            <div class="advantages__col">
-                <div class="advantages__row">
-                    <div class="advantages__item advantage advantage--big">
-                        <p class="advantage__digit">400 <span class="advantage__text-on-digit">семей</span></p>
-                        <h4 class="advantage__title">Готовы стать потенциальными клиентами вашего бизнеса</h4>
-                    </div>
+            <div class="advantages__content-wrapper">
+                <div class="advantages__item advantage advantage--big">
+                    <img src="/img/advantage_big.png" alt="400 семей" class="advantage__img">
+                    <h4 class="advantage__title">Готовы стать потенциальными<br>клиентами вашего бизнеса</h4>
                 </div>
-                <div class="advantages__row">
-                    <div class="advantages__item advantage">
-                        <img src="/img/advantage3.png" alt="Валик" class="advantage__img">
-                        <h4 class="advantage__title">Высокое качество черновой отделки</h4>
-                        <p class="advantage__text">Левкас стен, стяжка полов, стеклопакеты, электросеть и водопровод</p>
-                    </div>
-                    <div class="advantages__item advantage">
-                        <img src="/img/advantage4.png" alt="Высота 3 м метра" class="advantage__img">
-                        <h4 class="advantage__title">Высота потолков</h4>
-                        <p class="advantage__text">От 3,13 м до 3,78 м на первом этаже, 3,3 м на втором</p>
-                    </div>
+                <div class="advantages__item advantage">
+                    <img src="/img/advantage1.png" alt="Стратегическое расположение" class="advantage__img">
+                    <h4 class="advantage__title">Стратегическое<br>расположение</h4>
+                    <p class="advantage__text">Престижный район на левом<br>берегу с высокой<br>плотностью заселения</p>
                 </div>
-            </div>
-            <div class="advantages__col">
-                <div class="advantages__row">
-                    <div class="advantages__item advantage">
-                        <img src="/img/advantage1.png" alt="Стратегическое расположение" class="advantage__img">
-                        <h4 class="advantage__title">Стратегическое расположение</h4>
-                        <p class="advantage__text">Престижный район на левом берегу с высокой плотностью заселения</p>
-                    </div>
-                    <div class="advantages__item advantage">
-                        <img src="/img/advantage2.png" alt="Удобная парковка" class="advantage__img">
-                        <h4 class="advantage__title">Удобная парковка</h4>
-                        <p class="advantage__text">Удобная парковка по периметру жилого комплекса</p>
-                    </div>
+                <div class="advantages__item advantage">
+                    <img src="/img/advantage2.png" alt="Удобная парковка" class="advantage__img">
+                    <h4 class="advantage__title">Удобная<br>парковка</h4>
+                    <p class="advantage__text">Удобная парковка<br>по периметру жилого<br>комплекса</p>
                 </div>
-                <div class="advantages__row">
-                    <div class="advantages__item advantage">
-                        <img src="/img/advantage5.png" alt="Витражные окна" class="advantage__img">
-                        <h4 class="advantage__title">Витражные окна</h4>
-                        <p class="advantage__text">Свободное проникновение света и визуальное расширение пространства</p>
-                    </div>
-                    <div class="advantages__item advantage">
-                        <img src="/img/advantage6.png" alt="Ответственный застройщик" class="advantage__img">
-                        <h4 class="advantage__title">Ответственный застройщик</h4>
-                        <p class="advantage__text">Компания ТОО "Nur Astana Kurylys" специалист в области жилищного строительства</p>
-                    </div>
+                <div class="advantages__item advantage">
+                    <img src="/img/advantage3.png" alt="Валик" class="advantage__img">
+                    <h4 class="advantage__title">Высокое качество<br>черновой отделки</h4>
+                    <p class="advantage__text">Левкас стен, стяжка полов,<br>стеклопакеты, электросеть<br>и водопровод</p>
+                </div>
+                <div class="advantages__item advantage">
+                    <img src="/img/advantage4.png" alt="Высота 3 м метра" class="advantage__img">
+                    <h4 class="advantage__title">Высота<br>потолков</h4>
+                    <p class="advantage__text">От&nbsp;3,13&nbsp;м до&nbsp;3,78&nbsp;м<br>на&nbsp;первом этаже, 3,3&nbsp;м<br>на втором</p>
+                </div>
+                <div class="advantages__item advantage">
+                    <img src="/img/advantage5.png" alt="Витражные окна" class="advantage__img">
+                    <h4 class="advantage__title">Витражные<br>окна</h4>
+                    <p class="advantage__text">Свободное проникновение<br>света и визуальное<br>расширение пространства</p>
+                </div>
+                <div class="advantages__item advantage">
+                    <img src="/img/advantage6.png" alt="Ответственный застройщик" class="advantage__img">
+                    <h4 class="advantage__title">Ответственный<br>застройщик</h4>
+                    <p class="advantage__text">Компания ТОО&nbsp;"Nur&nbsp;Astana&nbsp;Kurylys"<br>специалист в области<br>жилищного строительства</p>
                 </div>
             </div>
         </div>
     </section>
+{{--
 
     <section class="feedback">
         <div class="feedback__wrapper">
@@ -93,6 +84,7 @@
             </div>
         </div>
     </section>
+--}}
 
     <section class="plans" id="plans">
         <div class="plans__wrapper">
@@ -100,77 +92,120 @@
             <p class="plans__sub-title">Для различных видов предприятий</p>
             <ul class="plans__buttons-list">
                 <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button" data-item="plan1">157,1 м²</li>
             </ul>
             <ul class="plans__list">
                 <li class="plans__item">
-                    <img src="/img/plan_small1.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 1 этаже</p>
                     <p class="plans__item-price">157,1 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small2.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small2.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 1 этаже</p>
                     <p class="plans__item-price">152,8 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small3.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">253,8 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small4.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 1 этаже</p>
                     <p class="plans__item-price">128,5 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small5.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small5.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">206,8 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small6.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small6.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">258,4 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small7.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">199,1 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small8.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small8.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">253,8 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small9.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small9.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">353,5 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small10.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small10.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">327,5 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small11.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">217 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small12.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small12.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">296,9 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small13.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small13.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">144 м²</p>
                 </li>
                 <li class="plans__item">
-                    <img src="/img/plan_small14.png" alt="" class="plans__img">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_small14.png" alt="" class="plans__img">
+                    </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">1093 м²</p>
+                    <p class="plans__stock">Акция!</p>
                 </li>
             </ul>
         </div>
@@ -224,7 +259,7 @@
                 </div>
             </div>
 
-            <div class="contacts__feedback b-feedback">
+            <div class="contacts__feedback b-feedback" id="feedback">
                 <h2 class="b-feedback__title block-title">Поможем выбрать помещение для вашего бизнеса</h2>
                 <p class="b-feedback__sub-title">Запишитесь на просмотр прямо сейчас!</p>
                 <div class="b-feedback__input-rows form-id" id="b-feedback_call">
