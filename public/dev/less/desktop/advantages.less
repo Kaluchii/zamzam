@@ -2,17 +2,36 @@
   background-color: #54762a;
 
   &__container{
+    position: relative;
+    overflow: hidden;
     max-width: 1200px;
     margin: 0 auto;
     padding: 115px 50px 100px;
+
+    &::after{
+      content: '';
+      position: absolute;
+      top: -60%;
+      left: -25%;
+      width: 150%;
+      height: 150%;
+      background: -moz-radial-gradient(center, ellipse cover, rgba(104,165,47,1) 0%, rgba(104,165,47,0) 75%, rgba(104,165,47,0) 100%);
+      background: -webkit-radial-gradient(center, ellipse cover, rgba(104,165,47,1) 0%,rgba(104,165,47,0) 75%,rgba(104,165,47,0) 100%);
+      background: radial-gradient(ellipse at center, rgba(104,165,47,1) 0%,rgba(104,165,47,0) 75%,rgba(104,165,47,0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68a52f', endColorstr='#0068a52f',GradientType=1 );
+    }
   }
 
   &__title{
+    position: relative;
+    z-index: 1;
     text-align: center;
     color: #ffffff;
   }
 
   &__content-wrapper{
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
     margin: 100px auto 0;
