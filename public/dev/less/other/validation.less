@@ -1,0 +1,28 @@
+@keyframes field-shake {
+  10%, 30%, 50%, 70%, 90% {
+    text-indent: 0.25em
+  }
+  20%, 40%, 60%, 80% {
+    text-indent: 0.75em
+  }
+}
+
+.form-row{
+  &__validation-wrap{
+    position: relative;
+
+    &.error {
+      &:not(.filling) {
+        .form-row__input {
+          animation: field-shake 0.8s;
+          border-color: rgba(204, 0, 0, 0.7);
+
+          &:focus {
+          }
+
+          outline: none;
+        }
+      }
+    }
+  }
+}

@@ -10,14 +10,38 @@
   border-radius: 10px;
   font-family: 'HelveticaNeueCyr-Roman', Helvetica, Arial, sans-serif;
   white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  transition: .3s;
+
+  &:hover{
+    background-color: #f4f42c;
+    box-shadow: 1px 1px 2px transparent;
+  }
 
   &--orange{
     background-color: #e55b1e;
     color: #ffffff;
+
+    &:hover{
+      background-color: #fa753a;
+    }
   }
 
   &--green{
     background-color: #507028;
     color: #ffffff;
+
+    &:hover{
+      background-color: #689135;
+    }
+  }
+
+  &.load {
+    background: url(../img/default.svg) center center no-repeat, rgba(170, 170, 170, 0.8);
+    background-size: 28px 28px;
+    color: transparent;
+    cursor: default;
   }
 }

@@ -53,4 +53,49 @@ $(document).ready(function () {
             menuClose();
         }
     });
+
+    $('.js_go_to').on('click', function () {
+        var elemetn = $(this).data('item');
+        $('html, body').stop().animate({
+            scrollTop: $('.'+elemetn).offset().top-130
+        }, 1000);
+    });
+
+    $('.js_tab_btn').on('click', function(){
+        if( !$(this).hasClass('is-active') ){
+            var $this = $(this);
+            $('.js_tab_btn').removeClass('is-active');
+            $this.addClass('is-active');
+
+            var tab_num = $this.data('item');
+
+            $('.contact-block__tab.is-active').fadeOut(function () {
+                $(this).removeClass('is-active');
+                $('.js_tab_'+tab_num).fadeIn(function () {
+                    $(this).addClass('is-active');
+                });
+            });
+
+        }
+    });
+
+
+    /* Yandex map */
+
+    var init = function () {
+        myMap = new ymaps.Map("map",
+            {center: [51.121525, 71.397599], zoom: 16, controls: []});
+        myMap.behaviors.disable("scrollZoom");
+        myMap.behaviors.disable("dblClickZoom");
+        var myPlacemark = new ymaps.Placemark([51.121525, 71.396599], {}, {
+            iconLayout: "default#image",
+            iconImageHref: "/img/logo.png",
+            iconImageSize: [63, 63],
+            iconImageOffset: [-10, 30]
+        });
+        myMap.geoObjects.add(myPlacemark);
+    };
+
+    ymaps.ready(init);
+    var myMap;
 });

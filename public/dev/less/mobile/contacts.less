@@ -1,0 +1,137 @@
+@media all and (max-width: 900px){
+  .contacts{
+    &__wrapper{
+      padding: 80px 35px 0;
+    }
+  }
+
+  .contact-block{
+    &__info-row{
+      padding-left: 25px;
+    }
+
+    &__social-wrapper{
+      padding-left: 25px;
+    }
+  }
+
+  .b-feedback{
+    &__title{
+      max-width: 550px;
+    }
+  }
+}
+
+@media all and (max-width: 700px){
+  .contact-block{
+    flex-direction: column;
+
+    &__info-row{
+      & + &{
+        margin-top: 30px;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+    }
+
+    &__tab{
+      height: 350px;
+    }
+
+    &__buttons{
+      max-width: 226px;
+      margin: 30px 0 30px 25px;
+      position: static;
+    }
+  }
+}
+
+@media all and (max-width: 620px){
+  .contacts{
+    background: url("/img/city_bottom.png") no-repeat center bottom / auto 115px, #507028;
+
+    &__wrapper{
+      padding: 35px 25px 0;
+    }
+
+    &__title{
+      display: none;
+    }
+
+    &__contact-block{
+      margin-top: 0;
+    }
+
+    &__feedback{
+      margin-top: 80px;
+    }
+  }
+
+  .contact-block{
+    &__col-1{
+      padding-top: 40px;
+      padding-bottom: 30px;
+    }
+
+    &__info-row{
+      & + &{
+        margin-top: 35px;
+      }
+    }
+
+    &__info-text{
+      font-size: 16px;
+    }
+
+    &__social-wrapper{
+      padding-top: 25px;
+    }
+
+    &__tab-1{
+      background-position: 110% 0;
+    }
+
+    &__buttons{
+      margin: 25px 0 25px 25px;
+    }
+  }
+
+  .b-feedback{
+    &__title{
+      max-width: 450px;
+    }
+
+    &__sub-title{
+      margin-top: 25px;
+    }
+
+    &__input-rows{
+      margin-top: 40px;
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  .b-feedback{
+    &__title{
+      text-align: left;
+    }
+
+    &__sub-title{
+      text-align: left;
+    }
+
+    &__input-rows{
+      margin: 35px 0 0;
+    }
+
+    &__row{
+      margin-top: 20px;
+
+      &--btn{
+        margin-top: 40px;
+        text-align: left;
+      }
+    }
+  }
+}

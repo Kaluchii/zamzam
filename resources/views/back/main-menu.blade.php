@@ -1,15 +1,9 @@
 @section('main-menu')
     <section class="sidebar">
         <ul class="sidebar-menu">
-            <li class="header">Главная страница</li>
             <li>
-                <a href="/adm/all">
-                    <i class="fa fa-globe"></i> <span>Общие настройки</span>
-                </a>
-            </li>
-            <li>
-                <a href="/adm/seo">
-                    <i class="fa fa-chrome"></i> <span>СЕО</span>
+                <a href="/adm/mails">
+                    <i class="fa fa-send-o"></i> <span>Почта</span>
                 </a>
             </li>
 

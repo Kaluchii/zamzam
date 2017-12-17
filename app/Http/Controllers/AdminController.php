@@ -18,10 +18,10 @@ class AdminController extends Controller
         return view('back.layout');
     }
 
-    public function getExample(){
-        $block = $this->extract->getBlock('example');
-        return view('back.blocks.example', [
-            'block' => $block
+    public function getMails(){
+        $call = $this->extract->getBlock('call');
+        return view('back.blocks.mails', [
+            'call' => $call
         ]);
     }
 }

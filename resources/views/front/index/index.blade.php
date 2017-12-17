@@ -62,10 +62,10 @@
         <div class="feedback__wrapper">
             <h2 class="feedback__title block-title">Закажите просмотр в удобное время</h2>
             <div class="feedback__input-rows form-id" id="feedback_call">
-                <input type="hidden" name="form" class="form-input" value="call">
+                <input type="hidden" name="form" class="js_form-input" value="call">
                 <div class="feedback__row form-row">
                     <div class="form-row__validation-wrap feedback-input">
-                        <input type="text" name="client_name" id="feedback_name" placeholder="Введите имя" autocomplete="false" required class="form-row__input form-input feedback-input__input">
+                        <input type="text" name="client_name" id="feedback_name" placeholder="Введите имя" autocomplete="false" required class="js_form-input feedback-input__input">
                         <label class="feedback-input__label feedback-input__label--name" for="feedback_name"><span class="feedback-input__label-text">Имя</span></label>
                         <div class="form-row__tooltip-wrap form-row__tooltip-wrap--popup-none"><p class="form-row__tooltip form-row__tooltip--border">Как к вам обращаться</p></div>
                     </div>
@@ -73,7 +73,7 @@
 
                 <div class="feedback__row form-row">
                     <div class="form-row__validation-wrap feedback-input">
-                        <input type="tel" data-require="true" id="feedback_tel" class="form-row__input form-input feedback-input__input feedback-input__input--tel" maxlength="25" data-mask="(000) 000-00-00" name="phone">
+                        <input type="tel" data-require="true" id="feedback_tel" class="js_form-input feedback-input__input feedback-input__input--tel" maxlength="25" data-mask="(000) 000-00-00" name="phone">
                         <label class="feedback-input__label feedback-input__label--tel" for="feedback_tel"><span class="feedback-input__label-text">Телефон</span></label>
                         <div class="form-row__tooltip-wrap form-row__tooltip-wrap--popup-none"><p class="form-row__tooltip form-row__tooltip--border">Телефонный номер для связи</p></div>
                     </div>
@@ -91,115 +91,114 @@
             <h2 class="plans__title block-title">14 продуманных помещений</h2>
             <p class="plans__sub-title">Для различных видов предприятий</p>
             <ul class="plans__buttons-list">
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
-                <li class="plans__button" data-item="plan1">157,1 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan1">157,1 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan2">152,8 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan3">253,8 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan4">128,5 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan5">206,8 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan6">258,4 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan7">199,1 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan8">253,8 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan9">353,5 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan10">327,5 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan11">217 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan12">296,9 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan13">144 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan14">1093 м²</li>
             </ul>
             <ul class="plans__list">
-                <li class="plans__item">
+                <li class="plans__item  js_plan1">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small4.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 1 этаже</p>
                     <p class="plans__item-price">157,1 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan2">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small2.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 1 этаже</p>
                     <p class="plans__item-price">152,8 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan3">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small4.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">253,8 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan4">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small4.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 1 этаже</p>
                     <p class="plans__item-price">128,5 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan5">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small5.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">206,8 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan6">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small6.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">258,4 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan7">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small4.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">199,1 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan8">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small8.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">253,8 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan9">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small9.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">353,5 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan10">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small10.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">327,5 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan11">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small4.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">217 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan12">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small12.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">296,9 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan13">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small13.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">144 м²</p>
                 </li>
-                <li class="plans__item">
+                <li class="plans__item  js_plan14">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small14.png" alt="" class="plans__img">
                     </div>
@@ -214,7 +213,7 @@
     <section class="stock" id="stock">
         <div class="stock__wrapper">
             <p class="stock__rec">Акция!</p>
-            <h2 class="stock__title block-title">Двухэтажное помещение под тренажерный зал</h2>
+            <h2 class="stock__title block-title">Двухэтажное помещение под&nbsp;тренажерный зал</h2>
             <div class="stock__row">
                 <div class="stock__col">
                     <p class="stock__info-title">Площадь</p>
@@ -243,18 +242,18 @@
                         <p class="contact-block__info-text">ул.&nbsp;Ермекова, 1/1А, ЖК&nbsp;Арай&nbsp;3 <br> +7&nbsp;(7172)&nbsp;795&nbsp;044</p>
                     </div>
                     <div class="contact-block__social-wrapper">
-                        <a href="#" class="contact-block__social-item"></a>
-                        <a href="#" class="contact-block__social-item"></a>
+                        <a href="https://www.facebook.com/zamzamastana/" target="_blank" class="contact-block__social-item contact-block__social-item--fb"></a>
+                        <a href="https://www.instagram.com/zamzamastana/" target="_blank" class="contact-block__social-item contact-block__social-item--inst"></a>
                     </div>
                 </div>
                 <div class="contact-block__col-2">
-                    <div class="contact-block__tab-1 is-active"></div>
-                    <div class="contact-block__tab-2">
+                    <div class="contact-block__tab contact-block__tab--sheme js_tab_1 is-active"></div>
+                    <div class="contact-block__tab js_tab_2">
                         <div class="contact-block__map" id="map"></div>
                     </div>
                     <div class="contact-block__buttons">
-                        <div class="contact-block__button is-active">Схема проезда</div>
-                        <div class="contact-block__button">Карта</div>
+                        <div class="contact-block__button js_tab_btn is-active" data-item="1">Схема проезда</div>
+                        <div class="contact-block__button js_tab_btn" data-item="2">Карта</div>
                     </div>
                 </div>
             </div>
@@ -263,24 +262,22 @@
                 <h2 class="b-feedback__title block-title">Поможем выбрать помещение для вашего бизнеса</h2>
                 <p class="b-feedback__sub-title">Запишитесь на просмотр прямо сейчас!</p>
                 <div class="b-feedback__input-rows form-id" id="b-feedback_call">
-                    <input type="hidden" name="form" class="form-input" value="call">
+                    <input type="hidden" name="form" class="js_form-input" value="call">
                     <div class="b-feedback__row form-row">
-                        <div class="form-row__validation-wrap feedback-input">
-                            <input type="text" name="client_name" id="b-feedback_name" placeholder="Введите имя" autocomplete="false" required class="form-row__input form-input feedback-input__input">
-                            <label class="b-feedback-input__label feedback-input__label--name" for="b-feedback_name"><span class="b-feedback-input__label-text">Имя</span></label>
-                            <div class="form-row__tooltip-wrap form-row__tooltip-wrap--popup-none"><p class="form-row__tooltip form-row__tooltip--border">Как к вам обращаться</p></div>
+                        <div class="form-row__validation-wrap b-feedback-input">
+                            <input type="text" name="client_name" id="b-feedback_name" autocomplete="false" required class="js_form-input form-row__input b-feedback-input__input">
+                            <label class="b-feedback-input__label" for="b-feedback_name">Имя</label>
                         </div>
                     </div>
 
                     <div class="b-feedback__row form-row">
-                        <div class="form-row__validation-wrap feedback-input">
-                            <input type="tel" data-require="true" id="b-feedback_tel" class="form-row__input form-input feedback-input__input feedback-input__input--tel" maxlength="25" data-mask="(000) 000-00-00" name="phone">
-                            <label class="b-feedback-input__label feedback-input__label--tel" for="b-feedback_tel"><span class="b-feedback-input__label-text">Телефон</span></label>
-                            <div class="form-row__tooltip-wrap form-row__tooltip-wrap--popup-none"><p class="form-row__tooltip form-row__tooltip--border">Телефонный номер для связи</p></div>
+                        <div class="form-row__validation-wrap b-feedback-input">
+                            <input type="tel" data-require="true" id="b-feedback_tel" required class="js_form-input form-row__input b-feedback-input__input b-feedback-input__input--tel" maxlength="25" data-mask="+7 (000) 000-00-00" name="phone">
+                            <label class="b-feedback-input__label" for="b-feedback_tel">Телефон</label>
                         </div>
                     </div>
-                    <div class="b-feedback__row feedback__row--btn">
-                        <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" class="b-feedback__btn form-row__send-form button send-form">
+                    <div class="b-feedback__row b-feedback__row--btn">
+                        <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" class="b-feedback__btn button send-form">
                     </div>
                 </div>
             </div>

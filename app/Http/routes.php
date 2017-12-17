@@ -23,8 +23,9 @@ Route::post('/feedback/mail',    'Back\MailController@send');
 Route::auth();
 Route::group(['middleware' => 'auth', 'prefix' => 'adm'],function(){
 
-    Route::get('/',         'AdminController@getIndex');
+    Route::get('/',                  'AdminController@getIndex');
 
+    Route::get('/mails',             'AdminController@getMails');
 
 
     // Таксономия проекта. Визуальная зависимость данных.
