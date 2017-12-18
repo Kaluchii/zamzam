@@ -156,7 +156,7 @@ $(document).ready(function(){
         var response = ajaxDataSend('POST', '/feedback/mail', dataobj);
         response.success(function(data){
             if(!data.error){
-                $('.thank').click();
+                document.location.href="/thanks";
                 clearFields( selector );
             }
             sendButton.removeClass('load');

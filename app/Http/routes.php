@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('front.index.index');
 });
+Route::get('/thanks', function () {
+    return view('front.index.thanks');
+});
 
 
 Route::post('/captcha',          'Back\MailController@Captcha');

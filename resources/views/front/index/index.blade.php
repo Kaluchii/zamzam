@@ -56,35 +56,31 @@
             </div>
         </div>
     </section>
-{{--
 
     <section class="feedback">
         <div class="feedback__wrapper">
-            <h2 class="feedback__title block-title">Закажите просмотр в удобное время</h2>
+            <h2 class="feedback__title block-title">Закажите просмотр в&nbsp;удобное время</h2>
             <div class="feedback__input-rows form-id" id="feedback_call">
                 <input type="hidden" name="form" class="js_form-input" value="call">
                 <div class="feedback__row form-row">
                     <div class="form-row__validation-wrap feedback-input">
-                        <input type="text" name="client_name" id="feedback_name" placeholder="Введите имя" autocomplete="false" required class="js_form-input feedback-input__input">
-                        <label class="feedback-input__label feedback-input__label--name" for="feedback_name"><span class="feedback-input__label-text">Имя</span></label>
-                        <div class="form-row__tooltip-wrap form-row__tooltip-wrap--popup-none"><p class="form-row__tooltip form-row__tooltip--border">Как к вам обращаться</p></div>
+                        <input type="text" name="client_name" id="feedback_name" autocomplete="false" required class="js_form-input form-row__input feedback-input__input">
+                        <label class="feedback-input__label" for="feedback_name">Имя</label>
                     </div>
                 </div>
 
                 <div class="feedback__row form-row">
                     <div class="form-row__validation-wrap feedback-input">
-                        <input type="tel" data-require="true" id="feedback_tel" class="js_form-input feedback-input__input feedback-input__input--tel" maxlength="25" data-mask="(000) 000-00-00" name="phone">
-                        <label class="feedback-input__label feedback-input__label--tel" for="feedback_tel"><span class="feedback-input__label-text">Телефон</span></label>
-                        <div class="form-row__tooltip-wrap form-row__tooltip-wrap--popup-none"><p class="form-row__tooltip form-row__tooltip--border">Телефонный номер для связи</p></div>
+                        <input type="tel" required data-require="true" id="feedback_tel" class="js_form-input form-row__input feedback-input__input" maxlength="25" data-mask="+7 (000) 000-00-00" name="phone">
+                        <label class="feedback-input__label" for="feedback_tel">Телефон</label>
                     </div>
                 </div>
                 <div class="feedback__row feedback__row--btn">
-                    <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" class="feedback__btn form-row__send-form button send-form">
+                    <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" class="feedback__btn button send-form">
                 </div>
             </div>
         </div>
     </section>
---}}
 
     <section class="plans" id="plans">
         <div class="plans__wrapper">
