@@ -1,16 +1,4 @@
 $(document).ready(function(){
-    $('.thank').magnificPopup({
-        type: 'inline',
-        removalDelay: 500,
-        callbacks: {
-            beforeOpen: function() {
-                this.st.mainClass ='mfp-zoom-in';
-            }
-        },
-        midClick: true
-    });
-
-
     // Предотвращение отправки формы через php при нажатии на кнопку
     $('form').submit(function (e) {
         e.stopPropagation();

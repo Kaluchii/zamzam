@@ -7,8 +7,8 @@
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #137cc0;
-  opacity: 0.65; }
+  background: #0b0b0b;
+  opacity: 0.8; }
 
 .mfp-wrap {
   top: 0;
@@ -80,6 +80,9 @@
 .mfp-loading.mfp-figure {
   display: none; }
 
+.mfp-hide {
+  display: none !important; }
+
 .mfp-preloader {
   color: #CCC;
   position: absolute;
@@ -101,8 +104,8 @@
 .mfp-s-error .mfp-content {
   display: none; }
 
-.mfp-close,
-.mfp-arrow {
+button.mfp-close,
+button.mfp-arrow {
   overflow: visible;
   cursor: pointer;
   background: transparent;
@@ -120,30 +123,28 @@ button::-moz-focus-inner {
   border: 0; }
 
 .mfp-close {
-  width: 25px;
-  height: 25px;
-  line-height: 30px;
-  background: url("/img/close.png") no-repeat;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
   position: absolute;
-  right: 8px;
-  top: 8px;
+  right: 0;
+  top: 0;
   text-decoration: none;
   text-align: center;
   opacity: 0.65;
-  padding: 0 0 18px 7px;
+  padding: 0 0 18px 10px;
   color: #FFF;
   font-style: normal;
-  font-size: 48px;
+  font-size: 28px;
   font-family: Arial, Baskerville, monospace; }
 .mfp-close:hover,
 .mfp-close:focus {
   opacity: 1; }
 .mfp-close:active {
-  top: 6px; }
+  top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-  color: transparent;
-}
+  color: #333; }
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
@@ -295,31 +296,39 @@ img.mfp-img {
 
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
 
-.mfp-zoom-in .mfp-with-anim {
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-  transform: scale(0.8);
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
 }
-.mfp-zoom-in.mfp-bg {
-  opacity: 0;
-  transition: all 0.3s ease-out;
-}
-.mfp-zoom-in.mfp-ready .mfp-with-anim {
-  opacity: 1;
-  transform: scale(1);
-}
-.mfp-zoom-in.mfp-ready.mfp-bg {
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
   opacity: 0.8;
 }
-.mfp-zoom-in.mfp-removing .mfp-with-anim {
-  transform: scale(0.8);
-  opacity: 0;
-}
-.mfp-zoom-in.mfp-removing.mfp-bg {
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
   opacity: 0;
 }
 
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**
        * Remove all paddings around the image on small screen
@@ -370,5 +379,5 @@ img.mfp-img {
     -webkit-transform-origin: 100%;
     transform-origin: 100%; }
   .mfp-container {
-    padding-left: 6px;
-    padding-right: 6px; } }
+    padding-left: 0;
+    padding-right: 0; } }

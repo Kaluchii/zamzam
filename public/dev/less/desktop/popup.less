@@ -1,0 +1,224 @@
+.popup {
+  position: relative;
+  background: #FFF;
+  border-radius: 10px;
+  width: auto;
+  max-width: 1000px;
+  margin: 20px auto;
+  overflow: hidden;
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 635px;
+  }
+
+  &__info{
+    box-sizing: border-box;
+    max-width: 280px;
+    padding: 45px 15px 0 35px;
+  }
+
+  &__name{
+    font-size: 18px;
+    line-height: 1.648333333;
+    color: #000000;
+  }
+
+  &__area{
+    font-size: 36px;
+    color: #517128;
+  }
+
+  &__area-text{
+    font-size: inherit;
+  }
+
+  &__layout-choice{
+    width: ~'calc(100% + 55px)';
+    margin-top: 10px;
+    margin-left: -35px;
+  }
+
+  &__price-title{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  &__price{
+    margin-top: 13px;
+    font-size: 36px;
+    color: #517128;
+  }
+
+  &__price-text{
+    font-size: inherit;
+  }
+
+  &__bid{
+    box-sizing: border-box;
+    width: 280px;
+    padding: 215px 15px 50px 35px;
+  }
+
+  &__bid-text{
+    font-size: 18px;
+    line-height: 1.333333333;
+  }
+
+  &__bid-btn{
+    margin-top: 20px;
+  }
+
+  &__layout-view{
+    position: relative;
+    width: ~'calc(100% - 280px)';
+    height: 100%;
+    background-color: #f7f8f2;
+  }
+
+  &__tabs{
+    height: 100%;
+  }
+
+  &__tab{
+    display: none;
+    height: 100%;
+
+    &.is-active{
+      display: block;
+    }
+  }
+
+  &__layout-img-wrapper{
+    display: none;
+    align-items: center;
+    height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+
+    &.is-active{
+      display: flex!important;
+    }
+  }
+
+  &__layout-img{
+    display: block;
+    margin: auto;
+  }
+
+  &__buttons{
+    position: absolute;
+    overflow: hidden;
+    top: 40px;
+    right: 40px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+  }
+
+  &__button{
+    height: 38px;
+    box-sizing: border-box;
+    padding: 13px 20px;
+    font-size: 15.2px;
+    color: #000000;
+    background-color: #ffffff;
+    transition: .5s;
+
+    &.is-active{
+      background-color: #dfdf27;
+    }
+  }
+
+  &__for-example{
+    position: absolute;
+    top: 45px;
+    left: 35px;
+    width: 155px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__block-img{
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+  }
+
+  &__download{
+    position: absolute;
+    bottom: 60px;
+    left: 35px;
+    font-size: 14px;
+    color: #517128;
+    background: -moz-linear-gradient(to to left, #517128 4px, transparent 2px);
+    background: -ms-linear-gradient(to left, #517128 4px, transparent 2px);
+    background: -o-linear-gradient(to left, #517128 4px, transparent 2px);
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#517128), color-stop(0.6, #517128), color-stop(0.6, transparent));
+    background: -webkit-linear-gradient(to left, #517128 4px, transparent 2px);
+    background: linear-gradient(to left, #517128 4px, transparent 2px);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color', endColorstr='@color', GradientType=1);
+    background-position: 0 100%;
+    background-size: 6px 1px;
+    background-repeat: repeat-x;
+    transition: .2s;
+
+    &:hover{
+      color: #6b9735;
+    }
+  }
+}
+
+.layout-choice{
+  position: relative;
+  display: flex;
+  height: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  &__btn{
+    width: 50%;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    transition: .3s;
+    cursor: pointer;
+
+    &--1{
+      &.is-active ~ .layout-choice__btn-underline{
+        left: 0;
+      }
+    }
+
+    &--2{
+      &.is-active ~ .layout-choice__btn-underline{
+        left: 50%;
+      }
+    }
+
+    &:hover{
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    &.is-active{
+      color: #517128;
+    }
+  }
+
+  &__btn-underline{
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #517128;
+    transition: .3s;
+  }
+}
