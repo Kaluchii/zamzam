@@ -28,6 +28,11 @@ $(document).ready(function () {
             key: 'layoutKey',
             type: 'inline'
         },
+        /*callbacks: {
+            close: function() {
+                $('#mlens_target_0').remove();
+            }
+        },*/
         removalDelay: 500,
         showCloseBtn: false,
         mainClass: 'mfp-fade',
@@ -121,11 +126,12 @@ $(document).ready(function () {
         $('.js_price').text(curLayout['price']);
         $('.js_block_location').attr('src', curLayout['block_location']);
         $('.js_floor1_2d').attr('src', curLayout['floor1_2d']);
-        $('.js_floor1_3d').attr({'src': curLayout['floor1_3d'], 'data-big': curLayout['floor1_3d_big']});
+        $('.js_floor1_3d').attr('src', curLayout['floor1_3d']);
         $('.js_floor2_2d').attr('src', curLayout['floor2_2d']);
-        $('.js_floor2_3d').attr({'src': curLayout['floor2_3d'], 'data-big': curLayout['floor2_3d_big']});
+        $('.js_floor2_3d').attr('src', curLayout['floor2_3d']);
 
         $('.js_download').attr('href', curLayout['floor1_2d']);
+        $('.js_floor_toggle').attr('data-id', id);
 
         if( curLayout['floor2_2d'] !== '' ) {
             $('.js_floor_toggle').show();
@@ -154,8 +160,11 @@ $(document).ready(function () {
             var $this = $(this);
             $('.js_floor_btn').removeClass('is-active');
             $this.addClass('is-active');
-
+            var id = $this.parent().attr('data-id');
             var tab_num = $this.data('item');
+            var curLayout = layoutsObj[id];
+
+            $('.js_download').attr('href', curLayout['floor'+tab_num+'_2d']);
 
             $('.popup__tab.is-active').fadeOut(function () {
                 $(this).removeClass('is-active');

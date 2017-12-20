@@ -7,11 +7,9 @@
                 area: '157,1',
                 price: '43 988 000',
                 block_location: '/img/block_e.png',
-                floor1_2d: '/img/91,9.png',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/157,1.png',
+                floor1_3d: '/img/avtomoika.png',
+                floor2_2d: ''
             },
             js_plan2: {
                 name: 'Помещение на первом этаже',
@@ -19,11 +17,9 @@
                 area: '152,8',
                 price: '42 784 000',
                 block_location: '/img/block_j.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/152,8.png',
+                floor1_3d: '/img/avtosalon.png',
+                floor2_2d: ''
             },
             js_plan3: {
                 name: 'Помещение на втором этаже',
@@ -32,10 +28,8 @@
                 price: '71 064 000',
                 block_location: '/img/block_b.png',
                 floor1_2d: '/img/253,8.png',
-                floor1_3d: '/img/spa_3d.png',
-                floor1_3d_big: '/img/spa_3d.png',
-                floor2_2d: '',
-                file: ''
+                floor1_3d: '/img/clinic.png',
+                floor2_2d: ''
             },
             js_plan4: {
                 name: 'Помещение на первом этаже',
@@ -43,11 +37,9 @@
                 area: '128,5',
                 price: '35 980 000',
                 block_location: '/img/block_i.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/128,5.png',
+                floor1_3d: '/img/coffee.png',
+                floor2_2d: ''
             },
             js_plan5: {
                 name: 'Помещение на втором этаже',
@@ -55,11 +47,9 @@
                 area: '206,8',
                 price: '57 904 000',
                 block_location: '/img/block_e.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/206,8.png',
+                floor1_3d: '/img/koworking.png',
+                floor2_2d: ''
             },
             js_plan6: {
                 name: 'Двухэтажное помещение',
@@ -68,13 +58,10 @@
                 price: '72 352 000',
 //                block_location: '/img/block_g.png',
                 block_location: '/img/block_e.png',
-                floor1_2d: '/img/327,5.png',
-                floor1_3d: '/img/restauran1_3d.png',
-                floor1_3d_big: '/img/b_restauran1_3d.png',
-                floor2_2d: '/img/327,5_2.png',
-                floor2_3d: '/img/restauran2_3d.png',
-                floor2_3d_big: '/img/b_restauran2_3d.png',
-                file: ''
+                floor1_2d: '/img/258,4_1.png',
+                floor1_3d: '/img/detsad_1.png',
+                floor2_2d: '/img/258,4_2.png',
+                floor2_3d: '/img/detsad_2.png'
             },
             js_plan7: {
                 name: 'Помещение на втором этаже',
@@ -82,11 +69,9 @@
                 area: '199,1',
                 price: '55 748 000',
                 block_location: '/img/block_j.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/199,1.png',
+                floor1_3d: '/img/typography.png',
+                floor2_2d: ''
             },
             js_plan8: {
                 name: 'Помещение на втором этаже',
@@ -94,11 +79,9 @@
                 area: '199,7',
                 price: '55 916 000',
                 block_location: '/img/block_j.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/199,7.png',
+                floor1_3d: '/img/coworking.png',
+                floor2_2d: ''
             },
             js_plan9: {
                 name: 'Двухэтажное помещение',
@@ -106,13 +89,10 @@
                 area: '353,5',
                 price: '98 980 000',
                 block_location: '/img/block_g.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '/img/',
-                floor2_3d: '/img/',
-                floor2_3d_big: '/img/',
-                file: ''
+                floor1_2d: '/img/353,5_1.png',
+                floor1_3d: '/img/mebel_1.png',
+                floor2_2d: '/img/353,5_2.png',
+                floor2_3d: '/img/mebel_2.png'
             },
             js_plan10: {
                 name: 'Двухэтажное помещение',
@@ -120,13 +100,10 @@
                 area: '327,5',
                 price: '91 700 000',
                 block_location: '/img/block_e.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '/img/',
-                floor2_3d: '/img/',
-                floor2_3d_big: '/img/',
-                file: ''
+                floor1_2d: '/img/327,5_1.png',
+                floor1_3d: '/img/technika_1.png',
+                floor2_2d: '/img/327,5_2.png',
+                floor2_3d: '/img/technika_2.png'
             },
             js_plan11: {
                 name: 'Помещение на втором этаже',
@@ -134,11 +111,9 @@
                 area: '217',
                 price: '60 760 000',
                 block_location: '/img/block_i.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/217.png',
+                floor1_3d: '/img/parfume.png',
+                floor2_2d: ''
             },
             js_plan12: {
                 name: 'Двухэтажное помещение',
@@ -146,13 +121,10 @@
                 area: '296,9',
                 price: '83 132 000',
                 block_location: '/img/block_d.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '/img/',
-                floor2_3d: '/img/',
-                floor2_3d_big: '/img/',
-                file: ''
+                floor1_2d: '/img/296,9_1.png',
+                floor1_3d: '/img/b_restauran1_3d.png',
+                floor2_2d: '/img/296,9_2.png',
+                floor2_3d: '/img/b_restauran2_3d.png'
             },
             js_plan13: {
                 name: 'Помещение на втором этаже',
@@ -160,11 +132,9 @@
                 area: '144',
                 price: '40 320 000',
                 block_location: '/img/block_d.png',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '',
-                file: ''
+                floor1_2d: '/img/144.png',
+                floor1_3d: '/img/b_spa_3d.png',
+                floor2_2d: ''
             },
             js_plan14: {
                 name: 'Двухэтажное помещение',
@@ -172,13 +142,10 @@
                 area: '1093',
                 price: '306 258 400',
                 block_location: '',
-                floor1_2d: '/img/',
-                floor1_3d: '/img/',
-                floor1_3d_big: '/img/',
-                floor2_2d: '/img/',
-                floor2_3d: '/img/',
-                floor2_3d_big: '/img/',
-                file: ''
+                floor1_2d: '/img/.png',
+                floor1_3d: '/img/b_gym1_3d.png',
+                floor2_2d: '/img/.png',
+                floor2_3d: '/img/b_gym2_3d.png'
             }
         };
     </script>

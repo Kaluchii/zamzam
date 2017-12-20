@@ -108,7 +108,7 @@
             <ul class="plans__list">
                 <li class="plans__item js_popup_open" id="js_plan1" data-mfp-src="#layout">
                     <div class="plans__img-wrapper">
-                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                        <img src="/img/plan_small1.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 1 этаже</p>
                     <p class="plans__item-price">157,1 м²</p>
@@ -122,7 +122,7 @@
                 </li>
                 <li class="plans__item js_popup_open" id="js_plan3" data-mfp-src="#layout">
                     <div class="plans__img-wrapper">
-                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                        <img src="/img/plan_small3.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">253,8 м²</p>
@@ -150,7 +150,7 @@
                 </li>
                 <li class="plans__item js_popup_open" id="js_plan7">
                     <div class="plans__img-wrapper">
-                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                        <img src="/img/plan_small7.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">199,1 м²</p>
@@ -178,7 +178,7 @@
                 </li>
                 <li class="plans__item js_popup_open" id="js_plan11">
                     <div class="plans__img-wrapper">
-                        <img src="/img/plan_small4.png" alt="" class="plans__img">
+                        <img src="/img/plan_small11.png" alt="" class="plans__img">
                     </div>
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">217 м²</p>
@@ -223,7 +223,7 @@
                     <p class="stock__info-dec">220 000 т/м²</p>
                 </div>
             </div>
-            <a href="#" class="stock__btn button button--green">СМОТРЕТЬ ПЛАНИРОВКУ</a>
+            <a href="#" class="stock__btn button button--green js_popup_open" id="js_plan14">СМОТРЕТЬ ПЛАНИРОВКУ</a>
         </div>
     </section>
 
