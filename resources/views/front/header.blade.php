@@ -7,6 +7,7 @@
             <nav class="header__nav nav js_menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#advantages" class="nav__link js_goto_anchor js_nav_link">ПРЕИМУЩЕСТВА</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link js_goto_anchor js_nav_link">ГАЛЕРЕЯ</a></li>
                     <li class="nav__item"><a href="#plans" class="nav__link js_goto_anchor js_nav_link">ПЛАНИРОВКИ</a></li>
                     <li class="nav__item"><a href="#stock" class="nav__link js_goto_anchor js_nav_link">АКЦИИ</a></li>
                     <li class="nav__item"><a href="#contacts" class="nav__link js_goto_anchor js_nav_link">КОНТАКТЫ</a></li>

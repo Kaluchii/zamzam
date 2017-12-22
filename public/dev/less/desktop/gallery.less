@@ -1,0 +1,33 @@
+.gallery{
+  background-color: #54762a;
+  overflow: hidden;
+
+  &__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 50px 165px;
+  }
+
+  &__title{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__slider-wrapper{
+    margin-top: 60px;
+  }
+
+  &__slider{
+    display: flex;
+  }
+
+  &__img{
+    border-radius: 10px;
+    margin: 0 5px;
+    box-shadow: 2px 3px 8px rgba(39, 41, 33, 0.26);
+    object-fit: cover;
+    object-position: center;
+  }
+}

@@ -57,6 +57,20 @@
         </div>
     </section>
 
+    <section class="gallery" id="gallery">
+        <div class="gallery__container">
+            <h2 class="gallery__title block-title">Галерея</h2>
+            <div class="gallery__slider-wrapper">
+                <div class="gallery__slider js_slider">
+                    <img src="/img/image_1.jpg" alt="" class="gallery__img">
+                    <img src="/img/image_2.jpg" alt="" class="gallery__img">
+                    <img src="/img/image_3.jpg" alt="" class="gallery__img">
+                    <img src="/img/image_4.jpg" alt="" class="gallery__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="feedback">
         <div class="feedback__wrapper">
             <h2 class="feedback__title block-title">Закажите просмотр в&nbsp;удобное время</h2>

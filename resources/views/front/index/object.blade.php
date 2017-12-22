@@ -26,7 +26,7 @@
                 desc: 'Пример использования под клинику',
                 area: '253,8',
                 price: '71 064 000',
-                block_location: '/img/block_b.png',
+                block_location: '/img/block_v.png',
                 floor1_2d: '/img/253,8.png',
                 floor1_3d: '/img/clinic.png',
                 floor2_2d: ''
@@ -56,8 +56,7 @@
                 desc: 'Пример использования под детский сад',
                 area: '258,4',
                 price: '72 352 000',
-//                block_location: '/img/block_g.png',
-                block_location: '/img/block_e.png',
+                block_location: '/img/block_g.png',
                 floor1_2d: '/img/258,4_1.png',
                 floor1_3d: '/img/detsad_1.png',
                 floor2_2d: '/img/258,4_2.png',
@@ -142,9 +141,9 @@
                 area: '1093',
                 price: '306 258 400',
                 block_location: '',
-                floor1_2d: '/img/.png',
+                floor1_2d: '',
                 floor1_3d: '/img/b_gym1_3d.png',
-                floor2_2d: '/img/.png',
+                floor2_2d: ' ',
                 floor2_3d: '/img/b_gym2_3d.png'
             }
         };
