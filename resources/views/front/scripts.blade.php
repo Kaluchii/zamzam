@@ -5,6 +5,5 @@
     <script defer src="/js/slick.min.js"></script>
     <script defer src="/js/form.js"></script>
     <script defer src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-    <script defer src="/js/main.js"></script>
-    {{--<script defer src="https://www.google.com/recaptcha/api.js"></script>--}}
+    <script defer src="/js/main.js?1"></script>
 @endsection
