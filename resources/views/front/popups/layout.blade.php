@@ -13,7 +13,25 @@
         </div>
         <div class="popup__bid">
             <p class="popup__bid-text">Понравилось помещение?<br>Оставьте заявку</p>
-            <a href="#feedback" class="popup__bid-btn button button--orange button--small js_goto_anchor js_popup_close">ЗАПИСАТЬСЯ НА ПРОСМОТР</a>
+            <div class="popup__input-rows form-id" id="popup_call">
+                <input type="hidden" name="form" class="js_form-input" value="call">
+                <div class="popup__row form-row">
+                    <div class="form-row__validation-wrap popup-input">
+                        <input type="text" name="client_name" id="popup_name" autocomplete="false" required class="js_form-input form-row__input popup-input__input">
+                        <label class="popup-input__label" for="popup_name">Имя</label>
+                    </div>
+                </div>
+
+                <div class="popup__row form-row">
+                    <div class="form-row__validation-wrap popup-input">
+                        <input type="tel" required data-require="true" id="popup_tel" class="js_form-input form-row__input popup-input__input" maxlength="25" data-mask="+7 (000) 000-00-00" name="phone">
+                        <label class="popup-input__label" for="popup_tel">Телефон</label>
+                    </div>
+                </div>
+                <div class="popup__row popup__row--btn">
+                    <input type="submit" value="ЗАПИСАТЬСЯ НА ПРОСМОТР" class="feedback__btn button button--orange button--small send-form">
+                </div>
+            </div>
         </div>
         <div class="popup__layout-view">
             <div class="popup__tabs">
@@ -22,7 +40,7 @@
                         <img src="" alt="" class="popup__layout-img js_floor1_3d">
                     </div>
                     <div class="popup__layout-img-wrapper js_popup_img_2">
-                        <img src="" alt="" class="popup__layout-img js_floor1_2d">
+                        <img src="" alt="" class="popup__layout-img popup__layout-img--2d js_floor1_2d">
                     </div>
                     <div class="popup__buttons">
                         <div class="popup__button js_d_btn is-active" data-item="1">3D</div>
@@ -34,7 +52,7 @@
                         <img src="" alt="" class="popup__layout-img js_floor2_3d">
                     </div>
                     <div class="popup__layout-img-wrapper js_popup_img_4">
-                        <img src="" alt="" class="popup__layout-img js_floor2_2d">
+                        <img src="" alt="" class="popup__layout-img popup__layout-img--2d js_floor2_2d">
                     </div>
                     <div class="popup__buttons">
                         <div class="popup__button js_d_btn is-active" data-item="3">3D</div>
@@ -45,6 +63,12 @@
             <p class="popup__for-example js_desc"></p>
             <img src="" alt="" class="popup__block-img js_block_location">
             <a href="" download class="popup__download js_download">Скачать планировку</a>
+        </div>
+    </div>
+    <div class="popup__close close-btn js_popup_close">
+        <div class="close-btn__container">
+            <span class="close-btn__row close-btn__row--first"></span>
+            <span class="close-btn__row close-btn__row--second"></span>
         </div>
     </div>
 </div>

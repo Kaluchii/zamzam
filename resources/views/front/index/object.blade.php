@@ -8,7 +8,8 @@
                 price: '43 988 000',
                 block_location: '/img/block_e.png',
                 floor1_2d: '/img/157,1.png',
-                floor1_3d: '/img/avtomoika.png',
+                f1_download: '/img/1et_n10_157,1.jpg',
+                floor1_3d: '/img/avtomoika_1et.png',
                 floor2_2d: ''
             },
             js_plan2: {
@@ -18,7 +19,8 @@
                 price: '42 784 000',
                 block_location: '/img/block_j.png',
                 floor1_2d: '/img/152,8.png',
-                floor1_3d: '/img/avtosalon.png',
+                f1_download: '/img/1et_n4_152,8.jpg',
+                floor1_3d: '/img/avtosalon_1et.png',
                 floor2_2d: ''
             },
             js_plan3: {
@@ -28,7 +30,8 @@
                 price: '71 064 000',
                 block_location: '/img/block_v.png',
                 floor1_2d: '/img/253,8.png',
-                floor1_3d: '/img/clinic.png',
+                f1_download: '/img/2et_n23_253,8.jpg',
+                floor1_3d: '/img/clinic_2et.png',
                 floor2_2d: ''
             },
             js_plan4: {
@@ -38,7 +41,8 @@
                 price: '35 980 000',
                 block_location: '/img/block_i.png',
                 floor1_2d: '/img/128,5.png',
-                floor1_3d: '/img/coffee.png',
+                f1_download: '/img/1et_n2_128,5.jpg',
+                floor1_3d: '/img/coffee_1et.png',
                 floor2_2d: ''
             },
             js_plan5: {
@@ -48,7 +52,8 @@
                 price: '57 904 000',
                 block_location: '/img/block_e.png',
                 floor1_2d: '/img/206,8.png',
-                floor1_3d: '/img/koworking.png',
+                f1_download: '/img/2et_n9_206,8.jpg',
+                floor1_3d: '/img/coworking_2et.png',
                 floor2_2d: ''
             },
             js_plan6: {
@@ -58,9 +63,11 @@
                 price: '72 352 000',
                 block_location: '/img/block_g.png',
                 floor1_2d: '/img/258,4_1.png',
-                floor1_3d: '/img/detsad_1.png',
+                f1_download: '/img/1et_n20_258,4.jpg',
+                floor1_3d: '/img/detsad_et.png',
                 floor2_2d: '/img/258,4_2.png',
-                floor2_3d: '/img/detsad_2.png'
+                f2_download: '/img/2et_n20_258,4.jpg',
+                floor2_3d: '/img/detsad_2et.png'
             },
             js_plan7: {
                 name: 'Помещение на втором этаже',
@@ -69,7 +76,8 @@
                 price: '55 748 000',
                 block_location: '/img/block_j.png',
                 floor1_2d: '/img/199,1.png',
-                floor1_3d: '/img/typography.png',
+                f1_download: '/img/2et_n7_199,1.jpg',
+                floor1_3d: '/img/typografia_et2.png',
                 floor2_2d: ''
             },
             js_plan8: {
@@ -79,7 +87,8 @@
                 price: '55 916 000',
                 block_location: '/img/block_j.png',
                 floor1_2d: '/img/199,7.png',
-                floor1_3d: '/img/coworking.png',
+                f1_download: '/img/2et_n3_199,7.jpg',
+                floor1_3d: '/img/coworking_2et.png',
                 floor2_2d: ''
             },
             js_plan9: {
@@ -89,9 +98,11 @@
                 price: '98 980 000',
                 block_location: '/img/block_g.png',
                 floor1_2d: '/img/353,5_1.png',
-                floor1_3d: '/img/mebel_1.png',
+                f1_download: '/img/1et_n18_353,5.jpg',
+                floor1_3d: '/img/mebel_1et.png',
                 floor2_2d: '/img/353,5_2.png',
-                floor2_3d: '/img/mebel_2.png'
+                f2_download: '/img/2et_n18_353,5.jpg',
+                floor2_3d: '/img/mebel_2et.png'
             },
             js_plan10: {
                 name: 'Двухэтажное помещение',
@@ -100,9 +111,11 @@
                 price: '91 700 000',
                 block_location: '/img/block_e.png',
                 floor1_2d: '/img/327,5_1.png',
-                floor1_3d: '/img/technika_1.png',
+                f1_download: '/img/1-et_n13_327,5.jpg',
+                floor1_3d: '/img/technika_1et.png',
                 floor2_2d: '/img/327,5_2.png',
-                floor2_3d: '/img/technika_2.png'
+                f2_download: '/img/2-et_n13_327,5.jpg',
+                floor2_3d: '/img/technika_2et.png'
             },
             js_plan11: {
                 name: 'Помещение на втором этаже',
@@ -111,7 +124,8 @@
                 price: '60 760 000',
                 block_location: '/img/block_i.png',
                 floor1_2d: '/img/217.png',
-                floor1_3d: '/img/parfume.png',
+                f1_download: '/img/2et_n1_217.jpg',
+                floor1_3d: '/img/parfume_2et.png',
                 floor2_2d: ''
             },
             js_plan12: {
@@ -121,9 +135,11 @@
                 price: '83 132 000',
                 block_location: '/img/block_d.png',
                 floor1_2d: '/img/296,9_1.png',
-                floor1_3d: '/img/b_restauran1_3d.png',
+                f1_download: '/img/1et_n15_296.jpg',
+                floor1_3d: '/img/restatan_1et.png',
                 floor2_2d: '/img/296,9_2.png',
-                floor2_3d: '/img/b_restauran2_3d.png'
+                f2_download: '/img/2et_n15_296.jpg',
+                floor2_3d: '/img/restaran_2et.png'
             },
             js_plan13: {
                 name: 'Помещение на втором этаже',
@@ -132,7 +148,8 @@
                 price: '40 320 000',
                 block_location: '/img/block_d.png',
                 floor1_2d: '/img/144.png',
-                floor1_3d: '/img/b_spa_3d.png',
+                f1_download: '/img/144.jpg',
+                floor1_3d: '/img/spa_2et.png',
                 floor2_2d: ''
             },
             js_plan14: {
@@ -141,10 +158,12 @@
                 area: '1093',
                 price: '306 258 400',
                 block_location: '',
-                floor1_2d: '',
-                floor1_3d: '/img/b_gym1_3d.png',
-                floor2_2d: ' ',
-                floor2_3d: '/img/b_gym2_3d.png'
+                floor1_2d: '/img/tren_zal_1et_sait.png',
+                f1_download: '/img/tren_zal_1et.png',
+                floor1_3d: '/img/gym_1et.png',
+                floor2_2d: '/img/tren_zal_2et_sait.png',
+                f2_download: '/img/tren_zal_2et.png',
+                floor2_3d: '/img/gym_2et.png'
             }
         };
     </script>

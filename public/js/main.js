@@ -119,8 +119,9 @@ $(document).ready(function () {
         }
     });
 
-    $(".js_floor1_3d, .js_floor2_3d").mlens({});
+    // $(".js_floor1_3d, .js_floor2_3d").mlens({});
 
+    var leanse = false;
     $('.js_popup_open').on('click', function () {
         var id = $(this).attr('id');
         var curLayout = layoutsObj[id];
@@ -144,7 +145,7 @@ $(document).ready(function () {
         $('.js_floor2_2d').attr('src', curLayout['floor2_2d']);
         $('.js_floor2_3d').attr('src', curLayout['floor2_3d']);
 
-        $('.js_download').attr('href', curLayout['floor1_2d']);
+        $('.js_download').attr('href', curLayout['f1_download']);
         $('.js_floor_toggle').attr('data-id', id);
 
         if( curLayout['floor2_2d'] !== '' ) {
@@ -154,14 +155,17 @@ $(document).ready(function () {
         }
 
         if( id === 'js_plan14' ) {
-            $('.popup__buttons').hide();
-            $('.js_download').hide();
+            $('.popup__container').addClass('popup__container--gym');
         } else {
-            $('.popup__buttons').show();
-            $('.js_download').show();
+            $('.popup__container').removeClass('popup__container--gym');
         }
 
-        $(".js_floor1_3d, .js_floor2_3d").mlens('destroy');
+        if(leanse){
+            $(".js_floor1_3d, .js_floor2_3d").mlens('destroy');
+            $(".js_floor1_3d, .js_floor2_3d").attr('style', '');
+            leanse = false;
+        }
+
         if($window.width() >= 1024){
             $(".js_floor1_3d, .js_floor2_3d").mlens(
                 {
@@ -175,6 +179,7 @@ $(document).ready(function () {
                     zoomLevel: 1,          // zoom level multiplicator (number)
                     responsive: true       // true if mlens has to be responsive (boolean)
                 });
+            leanse = true;
         }
     });
 
@@ -187,7 +192,7 @@ $(document).ready(function () {
             var tab_num = $this.data('item');
             var curLayout = layoutsObj[id];
 
-            $('.js_download').attr('href', curLayout['floor'+tab_num+'_2d']);
+            $('.js_download').attr('href', curLayout['f'+tab_num+'_download']);
 
             $('.popup__tab.is-active').fadeOut(function () {
                 $(this).removeClass('is-active');
@@ -216,7 +221,7 @@ $(document).ready(function () {
         }
     });
 
-    $('.js_popup_close').on('click', function () { // Навесить на кнопку якоря к обратной связи
+    $('.js_popup_close').on('click', function () {
         $.magnificPopup.close();
     });
 
