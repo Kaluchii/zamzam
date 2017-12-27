@@ -144,7 +144,15 @@ $(document).ready(function(){
         var response = ajaxDataSend('POST', '/feedback/mail', dataobj);
         response.success(function(data){
             if(!data.error){
-                document.location.href="/thanks";
+                if (unical !== 'popup_call'){
+                    document.location.href="/thanks";
+                } else{
+                    $('.js_popup_thanks').fadeIn(function(){
+                        setTimeout(function () {
+                            $('.js_popup_thanks').fadeOut();
+                        }, 4000);
+                    });
+                }
                 clearFields( selector );
             }
             sendButton.removeClass('load');

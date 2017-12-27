@@ -32,6 +32,11 @@
                     <input type="submit" value="ЗАПИСАТЬСЯ НА ПРОСМОТР" class="feedback__btn button button--orange button--small send-form">
                 </div>
             </div>
+            <div class="popup__thanks-wrapper js_popup_thanks">
+                <div class="popup__thanks">
+                    <p class="popup__thanks-text">Спасибо!<br><span class="popup__thanks-text-small">Ваша заявка принята</span></p>
+                </div>
+            </div>
         </div>
         <div class="popup__layout-view">
             <div class="popup__tabs">
