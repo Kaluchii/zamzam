@@ -1,16 +1,4 @@
 $(document).ready(function(){
-    $('.thank').magnificPopup({
-        type: 'inline',
-        removalDelay: 500,
-        callbacks: {
-            beforeOpen: function() {
-                this.st.mainClass ='mfp-zoom-in';
-            }
-        },
-        midClick: true
-    });
-
-
     // Предотвращение отправки формы через php при нажатии на кнопку
     $('form').submit(function (e) {
         e.stopPropagation();
@@ -75,13 +63,13 @@ $(document).ready(function(){
         }
     }
 
-    $('.form-input').on('change', function () {
+    $('.js_form-input').on('change', function () {
         return fieldCheck( $(this) );
     });
-    $('.form-input').on('focusout', function () {
+    $('.js_form-input').on('focusout', function () {
         $(this).parent().removeClass('filling');
     });
-    $('.form-input').on('input', function () {
+    $('.js_form-input').on('input', function () {
         $(this).parent().addClass('filling');
     });
 
@@ -125,34 +113,6 @@ $(document).ready(function(){
         );
     }
 
-    window.onSubmitReCaptcha = function (token) {
-        active = false;
-        sendButton.addClass('load');
-
-        console.log('Captcha test start');
-        var cResponse = {'g-recaptcha-response': grecaptcha.getResponse()};
-
-        var capchaTest = ajaxDataSend('POST', '/captcha', cResponse);
-
-        capchaTest.success(function(data){
-            if( data.error ){
-                alert('Проверка не пройдена!');
-                sendButton.removeClass('load');
-                active = true;
-            }else{
-                console.log('CaptchaTest success');
-                sendForm();
-            }
-        });
-        capchaTest.error(function(data){
-            alert('При отправке сообщения произошла ошибка');
-            console.log('CaptchaTest error');
-            sendButton.removeClass('load');
-            active = true;
-        });
-    };
-
-
     var unical, sendButton, selector;
     var active = true;
 
@@ -160,13 +120,14 @@ $(document).ready(function(){
         if( active ){
             sendButton = $(this);
             unical = sendButton.closest('.form-id').attr('id');
-            selector = '#'+unical+' .form-input';
+            selector = '#'+unical+' .js_form-input';
 
             var validForm  = fieldsCheck( selector );
 
             if ( validForm ){
-                grecaptcha.reset();
-                grecaptcha.execute();
+                active = false;
+                sendButton.addClass('load');
+                sendForm();
             }
         }
     }
@@ -183,7 +144,15 @@ $(document).ready(function(){
         var response = ajaxDataSend('POST', '/feedback/mail', dataobj);
         response.success(function(data){
             if(!data.error){
-                $('.thank').click();
+                if (unical !== 'popup_call'){
+                    document.location.href="/thanks";
+                } else{
+                    $('.js_popup_thanks').fadeIn(function(){
+                        setTimeout(function () {
+                            $('.js_popup_thanks').fadeOut();
+                        }, 4000);
+                    });
+                }
                 clearFields( selector );
             }
             sendButton.removeClass('load');

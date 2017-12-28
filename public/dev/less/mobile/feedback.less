@@ -11,14 +11,18 @@
     &__input-rows{
       flex-direction: column;
       max-width: 270px;
+      margin-top: 20px;
     }
 
     &__row{
+      overflow: hidden;
+
       & + &{
-        margin: 35px 0 0;
+        margin: 10px 0 0;
       }
 
-      &--btn{
+      & + &--btn{
+        margin-top: 20px;
       }
     }
   }
@@ -43,18 +47,7 @@
     }
 
     &__input-rows{
-      flex-direction: column;
-      max-width: 270px;
       margin-left: 0;
-    }
-
-    &__row{
-      & + &{
-        margin: 35px 0 0;
-      }
-
-      &--btn{
-      }
     }
   }
 }

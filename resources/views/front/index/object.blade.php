@@ -88,7 +88,7 @@
                 block_location: '/img/block_j.png',
                 floor1_2d: '/img/199,7.png',
                 f1_download: '/img/2et_n3_199,7.jpg',
-                floor1_3d: '/img/coworking_2et.png',
+                floor1_3d: '/img/office.png',
                 floor2_2d: ''
             },
             js_plan9: {
