@@ -228,7 +228,7 @@ $(document).ready(function () {
 
     /* Yandex map */
 
-    var init = function () {
+    /*var init = function () {
         myMap = new ymaps.Map("map",
             {center: [51.121525, 71.397599], zoom: 16, controls: []});
         myMap.behaviors.disable("scrollZoom");
@@ -243,5 +243,5 @@ $(document).ready(function () {
     };
 
     ymaps.ready(init);
-    var myMap;
+    var myMap;*/
 });
