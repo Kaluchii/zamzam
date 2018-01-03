@@ -22,5 +22,8 @@
 
     @include('front.scripts')
     @yield('scripts')
+
+    @include('front.metriks')
+    @yield('metriks')
 </body>
 </html>
