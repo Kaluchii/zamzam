@@ -76,6 +76,7 @@
             <h2 class="feedback__title block-title">Закажите просмотр в&nbsp;удобное время</h2>
             <div class="feedback__input-rows form-id" id="feedback_call">
                 <input type="hidden" name="form" class="js_form-input" value="call">
+                <input type="hidden" name="location" class="js_form-input" value="Верхняя форма">
                 <div class="feedback__row form-row">
                     <div class="form-row__validation-wrap feedback-input">
                         <input type="text" name="client_name" id="feedback_name" autocomplete="false" required class="js_form-input form-row__input feedback-input__input">
@@ -276,6 +277,7 @@
                 <p class="b-feedback__sub-title">Запишитесь на просмотр прямо сейчас!</p>
                 <div class="b-feedback__input-rows form-id" id="b-feedback_call">
                     <input type="hidden" name="form" class="js_form-input" value="call">
+                    <input type="hidden" name="location" class="js_form-input" value="Нижняя форма">
                     <div class="b-feedback__row form-row">
                         <div class="form-row__validation-wrap b-feedback-input">
                             <input type="text" name="client_name" id="b-feedback_name" autocomplete="false" required class="js_form-input form-row__input b-feedback-input__input">

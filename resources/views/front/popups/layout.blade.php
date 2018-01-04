@@ -15,6 +15,7 @@
             <p class="popup__bid-text">Понравилось помещение?<br>Оставьте заявку</p>
             <div class="popup__input-rows form-id" id="popup_call">
                 <input type="hidden" name="form" class="js_form-input" value="call">
+                <input type="hidden" name="location" class="js_form-input" value="Планировки">
                 <div class="popup__row form-row">
                     <div class="form-row__validation-wrap popup-input">
                         <input type="text" name="client_name" id="popup_name" autocomplete="false" required class="js_form-input form-row__input popup-input__input">

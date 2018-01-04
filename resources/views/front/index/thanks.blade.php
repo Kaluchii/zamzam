@@ -8,7 +8,7 @@
         <title>Спасибо! Мы в скором времени позвоним вам</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <meta http-equiv="refresh" content="3; URL='/'" />
+        <meta http-equiv="refresh" content="5; URL='/'" />
         @include('front.styles')
         @yield('styles')
     </head>
@@ -27,5 +27,7 @@
         @include('front.scripts')
         @yield('scripts')
 
+        @include('front.metriks')
+        @yield('metriks')
     </body>
 </html>
