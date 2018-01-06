@@ -3,13 +3,15 @@
         var layoutsObj = {
             js_plan1: {
                 name: 'Помещение на первом этаже',
-                desc: 'Пример использования под автомойку',
+//                desc: 'Пример использования под автомойку',
+                desc: '',
                 area: '157,1',
                 price: '43 988 000',
                 block_location: '/img/block_e.png',
                 floor1_2d: '/img/157,1.png',
                 f1_download: '/img/1et_n10_157,1.jpg',
-                floor1_3d: '/img/avtomoika_1et.png',
+//                floor1_3d: '/img/avtomoika_1et.png',
+                floor1_3d: '/img/157,1.png',
                 floor2_2d: ''
             },
             js_plan2: {
@@ -144,7 +146,7 @@
             js_plan13: {
                 name: 'Помещение на втором этаже',
                 desc: 'Пример использования под спа салон',
-                area: '144',
+                area: '159',
                 price: '40 320 000',
                 block_location: '/img/block_d.png',
                 floor1_2d: '/img/144.png',
