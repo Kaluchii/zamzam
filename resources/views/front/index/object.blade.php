@@ -145,7 +145,7 @@
                 name: 'Помещение на втором этаже',
                 desc: 'Пример использования под спа салон',
                 area: '159',
-                price: '40 320 000',
+                price: '44 520 000',
                 block_location: '/img/block_d.png',
                 floor1_2d: '/img/159.png?1',
                 f1_download: '/img/159_d.png?1',
