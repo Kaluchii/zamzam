@@ -30,7 +30,7 @@
                 price: '71 064 000',
                 block_location: '/img/block_v.png',
                 floor1_2d: '/img/253,8.png',
-                f1_download: '/img/2et_n23_253,8.jpg',
+                f1_download: '/img/2253,8_d.png?1',
                 floor1_3d: '/img/clinic_2et.png',
                 floor2_2d: ''
             },
@@ -114,7 +114,7 @@
                 f1_download: '/img/1-et_n13_327,5.jpg',
                 floor1_3d: '/img/technika_1et.png',
                 floor2_2d: '/img/327,5_2.png',
-                f2_download: '/img/2-et_n13_327,5.jpg',
+                f2_download: '/img/327,5_2_d.png?1',
                 floor2_3d: '/img/technika_2et.png'
             },
             js_plan11: {
@@ -130,15 +130,15 @@
             },
             js_plan12: {
                 name: 'Двухэтажное помещение',
-                desc: 'Пример использования под сеть столовых',
+                desc: 'Пример использования под сеть кафе быстрого питания',
                 area: '296,9',
                 price: '83 132 000',
                 block_location: '/img/block_d.png',
                 floor1_2d: '/img/296,9_1.png',
-                f1_download: '/img/1et_n15_296.jpg',
+                f1_download: '/img/296_1_d.png?1',
                 floor1_3d: '/img/restatan_1et.png',
                 floor2_2d: '/img/296,9_2.png',
-                f2_download: '/img/2et_n15_296.jpg',
+                f2_download: '/img/296_2_d.png?1',
                 floor2_3d: '/img/restaran_2et.png'
             },
             js_plan13: {
@@ -147,8 +147,8 @@
                 area: '159',
                 price: '40 320 000',
                 block_location: '/img/block_d.png',
-                floor1_2d: '/img/144.png',
-                f1_download: '/img/144.jpg',
+                floor1_2d: '/img/159.png?1',
+                f1_download: '/img/159_d.png?1',
                 floor1_3d: '/img/spa_2et.png',
                 floor2_2d: ''
             },
