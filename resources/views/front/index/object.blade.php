@@ -8,7 +8,7 @@
                 price: '43 988 000',
                 block_location: '/img/block_e.png',
                 floor1_2d: '/img/157,1.png',
-                f1_download: '/img/1et_n10_157,1.jpg',
+                f1_download: '/img/p_157,1.png',
                 floor1_3d: '/img/cofee_1et.png',
                 floor2_2d: ''
             },
@@ -30,7 +30,7 @@
                 price: '71 064 000',
                 block_location: '/img/block_v.png',
                 floor1_2d: '/img/253,8.png',
-                f1_download: '/img/2253,8_d.png?1',
+                f1_download: '/img/p_253,8.png',
                 floor1_3d: '/img/clinic_2et.png',
                 floor2_2d: ''
             },
@@ -52,7 +52,7 @@
                 price: '57 904 000',
                 block_location: '/img/block_e.png',
                 floor1_2d: '/img/206,8.png',
-                f1_download: '/img/2et_n9_206,8.jpg',
+                f1_download: '/img/p_206,8.png',
                 floor1_3d: '/img/coworking_2et.png',
                 floor2_2d: ''
             },
@@ -63,10 +63,10 @@
                 price: '72 352 000',
                 block_location: '/img/block_g.png',
                 floor1_2d: '/img/258,4_1.png',
-                f1_download: '/img/1et_n20_258,4.jpg',
+                f1_download: '/img/p_258,4.png',
                 floor1_3d: '/img/detsad_et.png',
                 floor2_2d: '/img/258,4_2.png',
-                f2_download: '/img/2et_n20_258,4.jpg',
+                f2_download: '/img/p_258,4.png',
                 floor2_3d: '/img/detsad_2et.png'
             },
             js_plan7: {
@@ -98,10 +98,10 @@
                 price: '98 980 000',
                 block_location: '/img/block_g.png',
                 floor1_2d: '/img/353,5_1.png',
-                f1_download: '/img/1et_n18_353,5.jpg',
+                f1_download: '/img/p_353,5.png',
                 floor1_3d: '/img/mebel_1et.png',
                 floor2_2d: '/img/353,5_2.png',
-                f2_download: '/img/2et_n18_353,5.jpg',
+                f2_download: '/img/p_353,5.png',
                 floor2_3d: '/img/mebel_2et.png'
             },
             js_plan10: {
@@ -111,10 +111,10 @@
                 price: '91 700 000',
                 block_location: '/img/block_e.png',
                 floor1_2d: '/img/327,5_1.png',
-                f1_download: '/img/1-et_n13_327,5.jpg',
+                f1_download: '/img/p_327,5.png',
                 floor1_3d: '/img/technika_1et.png',
                 floor2_2d: '/img/327,5_2.png',
-                f2_download: '/img/327,5_2_d.png?1',
+                f2_download: '/img/p_327,5.png',
                 floor2_3d: '/img/technika_2et.png'
             },
             js_plan11: {
@@ -135,20 +135,20 @@
                 price: '83 132 000',
                 block_location: '/img/block_d.png',
                 floor1_2d: '/img/296,9_1.png',
-                f1_download: '/img/296_1_d.png?1',
+                f1_download: '/img/p_296,9.png',
                 floor1_3d: '/img/restatan_1et.png',
                 floor2_2d: '/img/296,9_2.png',
-                f2_download: '/img/296_2_d.png?1',
+                f2_download: '/img/p_296,9.png',
                 floor2_3d: '/img/restaran_2et.png'
             },
             js_plan13: {
                 name: 'Помещение на втором этаже',
-                desc: 'Пример использования под спа салон',
+                desc: 'Пример использования под spa-салон',
                 area: '159',
                 price: '44 520 000',
                 block_location: '/img/block_d.png',
                 floor1_2d: '/img/159.png?1',
-                f1_download: '/img/159_d.png?1',
+                f1_download: '/img/p_159.png',
                 floor1_3d: '/img/spa_2et.png',
                 floor2_2d: ''
             },
@@ -159,10 +159,10 @@
                 price: '306 258 400',
                 block_location: '',
                 floor1_2d: '/img/tren_zal_1et_sait.png',
-                f1_download: '/img/tren_zal_1et.png',
+                f1_download: '/img/p_1093.png',
                 floor1_3d: '/img/gym_1et.png',
                 floor2_2d: '/img/tren_zal_2et_sait.png',
-                f2_download: '/img/tren_zal_2et.png',
+                f2_download: '/img/p_1093.png',
                 floor2_3d: '/img/gym_2et.png'
             }
         };
