@@ -28,32 +28,24 @@ $(document).ready(function () {
             key: 'layoutKey',
             type: 'inline'
         },
-        /*callbacks: {
-            close: function() {
-                $('#mlens_target_0').remove();
-            }
-        },*/
         removalDelay: 500,
         showCloseBtn: false,
         mainClass: 'mfp-fade',
         midClick: true
     });
 
-    // var url = new Url();
     $window.scroll(function(){
         var cursor = $window.scrollTop();
-        // var cur_sec = '';
+        var cur_sec = '';
         sections.each(function(){
             var sec_name = $(this).attr('href');
             if( $(sec_name).offset().top - offset < cursor){
                 $('.nav__link').removeClass('is-active');
                 $(this).addClass('is-active');
-                // cur_sec = sec_name;
+                cur_sec = sec_name;
             }
         });
-        // url.hash = cur_sec === '#title' ? '' : cur_sec;
-        // window.location.hash = cur_sec;
-        // history.replaceState('', '', cur_sec);
+        window.location.hash = '/'+cur_sec.slice(1);
     });
 
     $window.resize(function(){
@@ -84,6 +76,16 @@ $(document).ready(function () {
             menuOpen();
         }
     });
+
+    if (window.location.href.indexOf("/#/") >= 0) {
+        var path = window.location.href;
+        var anchor = path.split('/')[4];
+        setTimeout(function () {
+            $('html, body').stop().animate({
+                scrollTop: $('#'+anchor).offset().top-70
+            }, 1000);
+        }, 500)
+    }
 
     $('.js_goto_anchor').bind("click", function(e){
         $('html, body').stop().animate({
@@ -118,8 +120,6 @@ $(document).ready(function () {
             });
         }
     });
-
-    // $(".js_floor1_3d, .js_floor2_3d").mlens({});
 
     var leanse = false;
     $('.js_popup_open').on('click', function () {
@@ -202,7 +202,7 @@ $(document).ready(function () {
             });
         }
     });
-    
+
     $('.js_d_btn').on('click', function () {
         if( !$(this).hasClass('is-active') ){
             var $this = $(this);
