@@ -102,25 +102,40 @@
 
     <section class="plans" id="plans">
         <div class="plans__wrapper">
-            <h2 class="plans__title block-title">9 продуманных помещений</h2>
+            <h2 class="plans__title block-title">15 продуманных помещений</h2>
             <p class="plans__sub-title">Для различных видов предприятий</p>
             <ul class="plans__buttons-list">
+                <li class="plans__button js_go_to" data-item="js_plan2">106 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan4">156,3 м²</li>
                 <li class="plans__button js_go_to" data-item="js_plan1">157,1 м²</li>
                 <li class="plans__button js_go_to" data-item="js_plan13">159 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan7">175,35 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan11">179,04 м²</li>
                 <li class="plans__button js_go_to" data-item="js_plan5">206,8 м²</li>
-                {{--<li class="plans__button js_go_to" data-item="js_plan2">152,8 м²</li>--}}
                 <li class="plans__button js_go_to" data-item="js_plan3">253,8 м²</li>
-                {{--<li class="plans__button js_go_to" data-item="js_plan4">128,5 м²</li>--}}
                 <li class="plans__button js_go_to" data-item="js_plan6">258,4 м²</li>
                 <li class="plans__button js_go_to" data-item="js_plan12">296,9 м²</li>
-                {{--<li class="plans__button js_go_to" data-item="js_plan7">199,1 м²</li>--}}
-                {{--<li class="plans__button js_go_to" data-item="js_plan8">199,7 м²</li>--}}
+                <li class="plans__button js_go_to" data-item="js_plan8">311,65 м²</li>
+                <li class="plans__button js_go_to" data-item="js_plan15">311,89 м²</li>
                 <li class="plans__button js_go_to" data-item="js_plan10">327,5 м²</li>
                 <li class="plans__button js_go_to" data-item="js_plan9">353,5 м²</li>
-                {{--<li class="plans__button js_go_to" data-item="js_plan11">217 м²</li>--}}
                 <li class="plans__button js_go_to" data-item="js_plan14">1093 м²</li>
             </ul>
             <ul class="plans__list">
+                <li class="plans__item js_popup_open" id="js_plan2" data-mfp-src="#layout">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_smalln4.png" alt="" class="plans__img">
+                    </div>
+                    <p class="plans__item-name">Помещение на 1 этаже</p>
+                    <p class="plans__item-price">106 м²</p>
+                </li>
+                <li class="plans__item js_popup_open" id="js_plan4">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_smalln1.png" alt="" class="plans__img">
+                    </div>
+                    <p class="plans__item-name">Помещение на 1 этаже</p>
+                    <p class="plans__item-price">156,3 м²</p>
+                </li>
                 <li class="plans__item js_popup_open" id="js_plan1" data-mfp-src="#layout">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small1.png" alt="" class="plans__img">
@@ -135,13 +150,20 @@
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">159 м²</p>
                 </li>
-                {{--<li class="plans__item js_popup_open" id="js_plan2" data-mfp-src="#layout">--}}
-                    {{--<div class="plans__img-wrapper">--}}
-                        {{--<img src="/img/plan_small2.png" alt="" class="plans__img">--}}
-                    {{--</div>--}}
-                    {{--<p class="plans__item-name">Помещение на 1 этаже</p>--}}
-                    {{--<p class="plans__item-price">152,8 м²</p>--}}
-                {{--</li>--}}
+                <li class="plans__item js_popup_open" id="js_plan7">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_smalln2.png" alt="" class="plans__img">
+                    </div>
+                    <p class="plans__item-name">Помещение на 2 этаже</p>
+                    <p class="plans__item-price">175,35 м²</p>
+                </li>
+                <li class="plans__item js_popup_open" id="js_plan11">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_smalln3.png" alt="" class="plans__img">
+                    </div>
+                    <p class="plans__item-name">Помещение на 2 этаже</p>
+                    <p class="plans__item-price">179,04 м²</p>
+                </li>
                 <li class="plans__item js_popup_open" id="js_plan5">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small5.png" alt="" class="plans__img">
@@ -156,13 +178,6 @@
                     <p class="plans__item-name">Помещение на 2 этаже</p>
                     <p class="plans__item-price">253,8 м²</p>
                 </li>
-                {{--<li class="plans__item js_popup_open" id="js_plan4">--}}
-                    {{--<div class="plans__img-wrapper">--}}
-                        {{--<img src="/img/plan_small4.png" alt="" class="plans__img">--}}
-                    {{--</div>--}}
-                    {{--<p class="plans__item-name">Помещение на 1 этаже</p>--}}
-                    {{--<p class="plans__item-price">128,5 м²</p>--}}
-                {{--</li>--}}
                 <li class="plans__item js_popup_open" id="js_plan6">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small6.png" alt="" class="plans__img">
@@ -177,20 +192,20 @@
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">296,9 м²</p>
                 </li>
-                {{--<li class="plans__item js_popup_open" id="js_plan7">--}}
-                    {{--<div class="plans__img-wrapper">--}}
-                        {{--<img src="/img/plan_small7.png" alt="" class="plans__img">--}}
-                    {{--</div>--}}
-                    {{--<p class="plans__item-name">Помещение на 2 этаже</p>--}}
-                    {{--<p class="plans__item-price">199,1 м²</p>--}}
-                {{--</li>--}}
-                {{--<li class="plans__item js_popup_open" id="js_plan8">--}}
-                    {{--<div class="plans__img-wrapper">--}}
-                        {{--<img src="/img/plan_small8.png" alt="" class="plans__img">--}}
-                    {{--</div>--}}
-                    {{--<p class="plans__item-name">Помещение на 2 этаже</p>--}}
-                    {{--<p class="plans__item-price">199,7 м²</p>--}}
-                {{--</li>--}}
+                <li class="plans__item js_popup_open" id="js_plan8">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_smalln6_1.png" alt="" class="plans__img">
+                    </div>
+                    <p class="plans__item-name">Двухэтажное помещение</p>
+                    <p class="plans__item-price">311,65 м²</p>
+                </li>
+                <li class="plans__item js_popup_open" id="js_plan15">
+                    <div class="plans__img-wrapper">
+                        <img src="/img/plan_smalln5_1.png" alt="" class="plans__img">
+                    </div>
+                    <p class="plans__item-name">Двухэтажное помещение</p>
+                    <p class="plans__item-price">311,89 м²</p>
+                </li>
                 <li class="plans__item js_popup_open" id="js_plan10">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small10.png" alt="" class="plans__img">
@@ -205,13 +220,6 @@
                     <p class="plans__item-name">Двухэтажное помещение</p>
                     <p class="plans__item-price">353,5 м²</p>
                 </li>
-                {{--<li class="plans__item js_popup_open" id="js_plan11">--}}
-                    {{--<div class="plans__img-wrapper">--}}
-                        {{--<img src="/img/plan_small11.png" alt="" class="plans__img">--}}
-                    {{--</div>--}}
-                    {{--<p class="plans__item-name">Помещение на 2 этаже</p>--}}
-                    {{--<p class="plans__item-price">217 м²</p>--}}
-                {{--</li>--}}
                 <li class="plans__item js_popup_open" id="js_plan14">
                     <div class="plans__img-wrapper">
                         <img src="/img/plan_small14.png" alt="" class="plans__img">

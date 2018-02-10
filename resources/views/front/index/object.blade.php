@@ -14,13 +14,13 @@
             },
             js_plan2: {
                 name: 'Помещение на первом этаже',
-                desc: 'Пример использования под автосалон',
-                area: '152,8',
-                price: '42 784 000',
-                block_location: '/img/block_j.png',
-                floor1_2d: '/img/152,8.png',
-                f1_download: '/img/1et_n4_152,8.jpg',
-                floor1_3d: '/img/avtosalon_1et.png',
+                desc: 'Пример использования под цветочный магазин',
+                area: '106',
+                price: '29 680 000',
+                block_location: '/img/block_b.png',
+                floor1_2d: '/img/106_б_1.png',
+                f1_download: '/img/106_б_1et.jpg',
+                floor1_3d: '/img/plan_big4.jpg',
                 floor2_2d: ''
             },
             js_plan3: {
@@ -36,13 +36,13 @@
             },
             js_plan4: {
                 name: 'Помещение на первом этаже',
-                desc: 'Пример использования под кофейню',
-                area: '128,5',
-                price: '35 980 000',
-                block_location: '/img/block_i.png',
-                floor1_2d: '/img/128,5.png',
-                f1_download: '/img/1et_n2_128,5.jpg',
-                floor1_3d: '/img/coffee_1et.png',
+                desc: 'Пример использования под аптеку',
+                area: '156,3',
+                price: '43 764 000',
+                block_location: '/img/block_a.png',
+                floor1_2d: '/img/156,3_А_1.png',
+                f1_download: '/img/156,3_А_1et.jpg',
+                floor1_3d: '/img/plan_big1.jpg',
                 floor2_2d: ''
             },
             js_plan5: {
@@ -71,25 +71,27 @@
             },
             js_plan7: {
                 name: 'Помещение на втором этаже',
-                desc: 'Пример использования под типографию',
-                area: '199,1',
-                price: '55 748 000',
-                block_location: '/img/block_j.png',
-                floor1_2d: '/img/199,1.png',
-                f1_download: '/img/2et_n7_199,1.jpg',
-                floor1_3d: '/img/typografia_et2.png',
+                desc: 'Пример использования под офис',
+                area: '175,35',
+                price: '49 098 000',
+                block_location: '/img/block_a.png',
+                floor1_2d: '/img/175,35_а_2.png',
+                f1_download: '/img/175,35_а_2et.jpg',
+                floor1_3d: '/img/plan_big2.jpg',
                 floor2_2d: ''
             },
             js_plan8: {
-                name: 'Помещение на втором этаже',
-                desc: 'Пример использования под офисное помещение',
-                area: '199,7',
-                price: '55 916 000',
-                block_location: '/img/block_j.png',
-                floor1_2d: '/img/199,7.png',
-                f1_download: '/img/2et_n3_199,7.jpg',
-                floor1_3d: '/img/office.png',
-                floor2_2d: ''
+                name: 'Двухэтажное помещение',
+                desc: 'Пример использования под магазин косметики и парфюмерии',
+                area: '311,65',
+                price: '87 262 000',
+                block_location: '/img/block_a.png',
+                floor1_2d: '/img/311,65_а_1.png',
+                f1_download: '/img/311,65_а_1,2et.jpg',
+                floor1_3d: '/img/plan_big6_1.jpg',
+                floor2_2d: '/img/311,65_а_2.png',
+                f2_download: '/img/311,65_а_1,2et.jpg',
+                floor2_3d: '/img/plan_big6_2.jpg'
             },
             js_plan9: {
                 name: 'Двухэтажное помещение',
@@ -119,13 +121,13 @@
             },
             js_plan11: {
                 name: 'Помещение на втором этаже',
-                desc: 'Пример использования под парфюмерный магазин',
-                area: '217',
-                price: '60 760 000',
-                block_location: '/img/block_i.png',
-                floor1_2d: '/img/217.png',
-                f1_download: '/img/2et_n1_217.jpg',
-                floor1_3d: '/img/parfume_2et.png',
+                desc: 'Пример использования под типографию',
+                area: '179,04',
+                price: '50 131 200',
+                block_location: '/img/block_b.png',
+                floor1_2d: '/img/179,04_б_2.png',
+                f1_download: '/img/179,04_б_2et.jpg',
+                floor1_3d: '/img/plan_big3.jpg',
                 floor2_2d: ''
             },
             js_plan12: {
@@ -164,6 +166,19 @@
                 floor2_2d: '/img/tren_zal_2et_sait.png',
                 f2_download: '/img/p_1093.png',
                 floor2_3d: '/img/gym_2et.png'
+            },
+            js_plan15: {
+                name: 'Двухэтажное помещение',
+                desc: 'Пример использования под банк',
+                area: '311,89',
+                price: '87 329 200',
+                block_location: '/img/block_b.png',
+                floor1_2d: '/img/311,89_б_1.png',
+                f1_download: '/img/311,89_б_1,2_et.jpg',
+                floor1_3d: '/img/plan_big5_1.jpg',
+                floor2_2d: '/img/311,89_б_2.png',
+                f2_download: '/img/311,89_б_1,2_et.jpg',
+                floor2_3d: '/img/plan_big5_2.jpg'
             }
         };
     </script>
