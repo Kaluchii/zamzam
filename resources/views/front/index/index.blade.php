@@ -8,7 +8,7 @@
                     <div class="title__fact title__fact--1">Дом готов</div>
                     <div class="title__fact title__fact--2">Ипотека</div>
                 </div>
-                <h1 class="title__title block-title">Коммерческие помещения в&nbsp;ЖК&nbsp;«Zam-Zam» 280&nbsp;000&nbsp;т/м²</h1>
+                <h1 class="title__title block-title">Коммерческие помещения в&nbsp;ЖК&nbsp;«Zam-Zam» 260&nbsp;000&nbsp;т/м²</h1>
                 <h2 class="title__sub-title">Бизнес в респектабельном районе на левом берегу</h2>
                 <a href="#feedback" class="title__call-btn button button--orange js_goto_anchor">ЗАПИСАТЬСЯ НА ПРОСМОТР</a>
             </div>
@@ -243,7 +243,7 @@
                 </div>
                 <div class="stock__col">
                     <p class="stock__info-title">Цена</p>
-                    <p class="stock__info-dec">220 000 т/м²</p>
+                    <p class="stock__info-dec">230 000 т/м²</p>
                 </div>
             </div>
             <a href="#" class="stock__btn button button--green js_popup_open" id="js_plan14">СМОТРЕТЬ ПЛАНИРОВКУ</a>
