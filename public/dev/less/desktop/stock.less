@@ -4,12 +4,13 @@
   &__wrapper{
     max-width: 1170px;
     margin: 0 auto;
-    padding: 95px 50px 100px;
+    padding: 80px 50px 85px;
   }
 
   &__rec{
     font-size: 36px;
     color: #e55b1e;
+    letter-spacing: .05em;
   }
 
   &__title{
@@ -28,6 +29,29 @@
     }
   }
 
+  &__parking{
+    position: relative;
+    margin-top: 35px;
+    padding-left: 45px;
+
+    &::before{
+      content: '';
+      position: absolute;
+      top: -1px;
+      left: 0;
+      width: 33px;
+      height: 40px;
+      background: url('/img/gift.png') no-repeat center;
+    }
+  }
+
+  &__parking-text{
+    font-size: 18px;
+    line-height: 1.275;
+    letter-spacing: 1px;
+    color: #e55b1e;
+  }
+
   &__info-title{
     font-size: 18px;
     color: rgba(0, 0, 0, 0.6);
@@ -40,6 +64,6 @@
   }
 
   &__btn{
-    margin-top: 125px;
+    margin-top: 80px;
   }
 }

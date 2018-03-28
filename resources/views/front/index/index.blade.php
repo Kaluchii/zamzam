@@ -246,6 +246,9 @@
                     <p class="stock__info-dec">230 000 т/м²</p>
                 </div>
             </div>
+            <div class="stock__parking">
+                <p class="stock__parking-text">20 парковочных мест<br>в подарок!</p>
+            </div>
             <a href="#" class="stock__btn button button--green js_popup_open" id="js_plan14">СМОТРЕТЬ ПЛАНИРОВКУ</a>
         </div>
     </section>
